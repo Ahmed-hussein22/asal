@@ -1,0 +1,12 @@
+.slider-wrapper {
+  width: 60%;        /* غير النسبة على حسب اللي عايزه */
+  max-width: 800px;
+  margin: 0 auto; 
+  margin-top: 100px;   /* توسيط */
+}
+
+.slider-wrapper img {
+  height: 600px;     /* غير الارتفاع على حسب اللي عايزه */
+  object-fit: cover;
+}
+

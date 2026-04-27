@@ -35,6 +35,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/asal/",
               "budgets": [
                 {
                   "type": "initial",
@@ -47,9 +48,9 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all" 
             },
-            "development": {
+            "development": { 
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
